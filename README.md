@@ -15,7 +15,15 @@ The model was exported and a script was used on a Raspberry Pi 4 to run it.
 
 This project is inspired by Shawn Hymel's course 'Computer Vision with Embedded Machine Learning' (see: https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning) and also makes use of a Python script provided by EdgeImpulse.
 
+#How to quickly run on a Raspberry Pi:
+- clone the repo to your Raspberry
+- make sure you have a (working) raspicam and a monitor attached to the Pi
+- run 'python3 od.py'
+- hold (an image) of an insect in front of the camera
+- have fun!
+
 #Future challenges
-- Improve model quality. 
+- Improve model quality
+- Add 'noise' (such as leaves, small branches, dirt etc)
 - Multi stage inferencing: combine Object Detection with Image Classification. 
 
