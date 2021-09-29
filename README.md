@@ -7,8 +7,8 @@ Object Detection has become available on Single Board Computers such as the Rasp
 Here a Object Detection model for insects is presented. With it, 5 classes of insects (bees, ants, earwigs, ladybirds and isopods) can be detected and counted. 
 
 ## Project Description
-For each Class 10 images were collected. Preferably these are with a top view on a plain background. 
-With the Data Augmentation notebook, these images are flipped and rotated to create 11 copies for each image. In total that means 120 images per class.
+For each Class 10 images were collected (see repo). Preferably these are with a top view on a plain background. 
+With the Data Augmentation notebook provided here, these images are flipped and rotated to create 11 copies for each image. In total that means 120 images per class.
 
 Then the images were uploaded to EdgeImpulse and a ObjecDetection model was trained.
 The model was exported and a script was used on a Raspberry Pi 4 to run it.
