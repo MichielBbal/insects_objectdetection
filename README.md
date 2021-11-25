@@ -24,6 +24,6 @@ This project is inspired by Shawn Hymel's course 'Computer Vision with Embedded 
 
 ## Future challenges
 - Improve model quality
-- Add 'noise' (such as leaves, small branches, dirt etc)
+- Add a InfluxDB to store results of the object detection
 - Multi stage inferencing: combine Object Detection with Image Classification. 
 
