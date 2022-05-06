@@ -2,7 +2,7 @@
 PoC for Object Detection for Insects
 
 ## Introduction
-Object Detection has become available on Single Board Computers such as the Raspberry Pi 4 or Jetson Nano. Together with low code machine learning platforms such as EdgeImpulse, this has opened up new possibilities. 
+Object Detection has become available on Single Board Computers such as the Raspberry Pi 4 or Jetson Nano. Together with low code machine learning platforms like EdgeImpulse, this has opened up new possibilities. 
 
 Here a Object Detection model for insects is presented. With it, 5 classes of insects (bees, ants, earwigs, ladybirds and isopods) can be detected and counted. 
 
@@ -19,7 +19,7 @@ This project is inspired by Shawn Hymel's course 'Computer Vision with Embedded 
 - clone the repo to your Raspberry
 - make sure you have a (working) raspicam and a monitor attached to the Pi
 - run 'python3 od.py'
-- hold (an image) of an insect in front of the camera
+- hold (an image of) an insect in front of the camera
 - have fun!
 
 ## Future challenges
